@@ -307,3 +307,22 @@ Repeat
 * **Replication** → Copying itself.
 * **Payload** → Harmful action after activation.
 * **Golden Rule:** **Virus = Host | Worm = Network**
+## Static Analysis — Information Collected
+
+**Static Analysis = Do not run the sample → Collect and examine its information.**
+
+- **SHA-256** → File fingerprint.
+- **MZ** → PE file signature.
+- **Entropy** → Measures randomness of the file/section.
+- **PE Headers** → Information about the file structure.
+- **`.text`** → Executable code/instructions.
+- **`.data`** → Writable data/variables.
+- **`.rdata`** → Read-only data.
+- **`.rsrc`** → Resources such as icons and version information.
+- **Strings** → Readable text found inside the file.
+- **Imports/Exports** → APIs/functions used or provided by the file.
+- **Metadata** → Basic file information.
+
+### 🧠 Remember
+
+> **Static Analysis = Don't Run → Collect Information → Understand the Sample**
